@@ -1,0 +1,40 @@
+.dynamicBox {
+  position: relative;
+  background-color: white;
+  margin: 150px 250px;
+  height: 300px;
+  color: black;
+}
+
+.dynamicBox__data {
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.dynamicBox__data > h1 {
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+.dynamicBox__data > p {
+  height: 140px;
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  line-height: 1.2em;
+  max-width: 550px;
+}
+.dynamicBox__dots {
+  position: absolute;
+  display: flex;
+  bottom: 30px;
+}
+.dot {
+  cursor: pointer;
+  font-size: 50px;
+  color: black;
+}
+.active {
+  color: grey;
+}

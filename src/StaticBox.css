@@ -1,0 +1,31 @@
+.staicBox__container {
+  background-color: white;
+  margin: 150px 250px;
+  color: black;
+}
+
+.staicBox__data {
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.staicBox__data > h1 {
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+.staicBox__data > p {
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  line-height: 1.2em;
+  max-width: 550px;
+}
+.staticBox__button {
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.7);
+  background-color: white;
+  margin-top: 50px;
+  outline: none;
+}

@@ -1,0 +1,21 @@
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 60px;
+  min-width: 940px;
+  font-family: "Libre Baskerville", serif;
+}
+.title__line1 {
+  font-size: 50px;
+  letter-spacing: 0.1em;
+}
+.title__line2 {
+  font-family: "Cormorant Garamond", serif;
+  letter-spacing: 0.1em;
+  font-size: 25px;
+  font-weight: 300;
+  margin: 10px;
+}

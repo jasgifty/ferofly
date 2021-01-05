@@ -1,0 +1,18 @@
+.sideElements {
+  position: fixed;
+  z-index: 100;
+  top: 40vh;
+  right: 0px;
+  padding: 10px;
+  background-color: white;
+}
+.sideElements__container {
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+}
+.sideElement__img {
+  object-fit: contain;
+  width: auto;
+  padding: 15px;
+}

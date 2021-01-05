@@ -1,0 +1,17 @@
+.list {
+  margin: 250px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-width: 940px;
+}
+.list > h1 {
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 50px;
+  font-weight: 300;
+}
+.list__items {
+  display: flex;
+}

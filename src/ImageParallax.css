@@ -1,0 +1,11 @@
+.imageParallax {
+  min-width: 940px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.imageParallax__image {
+  width: 940px;
+  height: 600px;
+  object-fit: cover;
+}

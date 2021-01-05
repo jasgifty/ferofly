@@ -1,0 +1,27 @@
+.listItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  padding: 20px;
+}
+
+.listItem > .MuiSvgIcon-root {
+  font-size: 30px;
+}
+.listItem > h1 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10px;
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 20px;
+}
+.listItem > p {
+  margin-top: 20px;
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  line-height: 1.2em;
+  max-width: 550px;
+  font-weight: 450;
+}

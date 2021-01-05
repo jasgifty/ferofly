@@ -1,0 +1,16 @@
+.chat {
+  position: fixed;
+  z-index: 100;
+  bottom: 25px;
+  left: 15px;
+}
+.chat .MuiIconButton-root {
+  background-color: black;
+  padding: 16px;
+  box-shadow: 0px 10px 53px rgba(0, 0, 0, 0.3);
+}
+.chat__button {
+  color: white !important;
+  object-fit: contain;
+  width: auto;
+}

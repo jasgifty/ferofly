@@ -1,0 +1,19 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 150px;
+}
+
+.about > h1 {
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+.about > p {
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  line-height: 1.2em;
+  max-width: 550px;
+}

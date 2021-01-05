@@ -1,0 +1,16 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 940px;
+  width: 100%;
+}
+.gallery__images {
+  display: flex;
+  margin: 20px;
+}
+.gallery > h1 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+}

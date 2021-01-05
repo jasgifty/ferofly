@@ -1,0 +1,68 @@
+.contact {
+  min-width: 940px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px;
+  background-color: rgb(240, 240, 240);
+}
+.contact__title {
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.contact__info {
+  display: flex;
+}
+.contact__infoData {
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  line-height: 1.2em;
+  max-width: 550px;
+  font-weight: 450;
+  white-space: nowrap;
+  padding: 30px;
+}
+.contact__row {
+  display: flex;
+}
+.contact input {
+  outline: none;
+  border: none;
+  margin: 5px;
+}
+.contact__row > input {
+  width: 268px;
+  height: 30px;
+}
+.contact__subject {
+  width: 550px;
+  height: 30px;
+}
+.contact__message {
+  text-align: right;
+  font-size: 15px;
+  top: 0px;
+  text-align: start;
+  width: 550px;
+  height: 150px;
+  outline: none;
+  border: none;
+  margin: 5px;
+  resize: none;
+}
+.contact__button {
+  width: 150px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 555px;
+  padding: 10px;
+  margin-top: 5px;
+  outline: none;
+}
+.contact__space {
+  height: 200px;
+  background-color: white;
+}

@@ -1,0 +1,36 @@
+.calander {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  min-width: 940px;
+}
+.calander__block {
+  padding: 10px;
+}
+.calander__line1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  height: 20px;
+}
+.calander__line2 {
+  border: 1px solid green;
+  outline: none;
+  width: 100%;
+  padding: 10px;
+  height: 15px;
+}
+.big {
+  width: 225px;
+}
+.small {
+  width: 50px;
+}
+.calander__button {
+  width: 150px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.9);
+  /* height: 20px; */
+  padding: 10px;
+  outline: none;
+}
